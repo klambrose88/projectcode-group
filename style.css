@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat');
+
+
+h1 {
+  text-align: center;
+  font-family: 'Libre Baskerville';
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1400px;
+  font-family: 'Libre Baskerville';
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+}
+
+nav li:hover {
+  background-color: grey;
+}
+
+nav a {
+  text-decoration: none;
+  color:black;
+}
+
+ul {
+  text-align: right;
+
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.grapes {text-align:center;}
+
+.grapes img { 
+width: 1000px;
+height: 450px;
+}
+
+.wineandcheese {text-align:center;}
+
+.wineandcheese img { 
+width: 50%
+}
+
+.parent {
+  max-width: 2000px;
+  display: flex;
+  flex-direction: row;
+  text-align:center;
+
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.hours {
+  display: inline-block;
+  padding: 35px 25px 25px 25px;
+  width: 350px;
+  text-align: left;
+  font-family: 'Montserrat';
+  
+}
+
+.map img {
+  display: inline-block;
+  width: 900px;
+  height:400px;
+}
+
+
+footer {
+  text-align:center;
+  font-family: 'Montserrat';
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  text-align:left;
+  padding:25px;
+  font-family:'Montserrat';
+}
+
+.wines{
+  display: inline-block;
+  
+}
+
+
+.wines img {
+  width: 300px;
+}
+
+
+
+.tour {
+  max-width: 1500px;
+  font-family:'Montserrat';
+  display: flex;
+  flex-direction: row;
+	justify-content: space-around;
+}
+
+.description {
+  max-width:750px;
+  display:inline-block;
+  padding-top:75px;
+  padding-left:50px;
+    padding-right:50px;
+   
+}
+
+.tasting {
+  display:inline-block;
+}
+
+.top {
+  background-color:green;
+  max-width:1000px;
+  display: flex;
+  flex-direction: row;
+  text-align:center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.profile {
+  width: 40%;
+}
+
+
+.profile ul {
+  background-color:blue;
+  list-style: none;
+  text-align: left;
+   
+}
+
+.slider {
+  background-color: red;
+   display: inline-block;
+}
+
+.slider img {
+  height:20%;
+   
+}
+.describe {
+  background-color:yellow;
+  
+}
