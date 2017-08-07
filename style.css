@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat');
 
+.container {
+  margin:auto;
+  max-width: 1500px;
+}
 
 h1 {
   text-align: center;
@@ -49,14 +53,14 @@ nav ul {
 .grapes {text-align:center;}
 
 .grapes img { 
-width: 1000px;
-height: 450px;
+  width: 1000px;
+  height: 450px;
 }
 
 .wineandcheese {text-align:center;}
 
 .wineandcheese img { 
-width: 50%
+  width: 50%
 }
 
 .parent {
@@ -65,8 +69,8 @@ width: 50%
   flex-direction: row;
   text-align:center;
 
-	flex-wrap: wrap;
-	justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .hours {
@@ -75,7 +79,7 @@ width: 50%
   width: 350px;
   text-align: left;
   font-family: 'Montserrat';
-  
+
 }
 
 .map img {
@@ -100,7 +104,7 @@ footer {
 
 .wines{
   display: inline-block;
-  
+
 }
 
 
@@ -115,7 +119,7 @@ footer {
   font-family:'Montserrat';
   display: flex;
   flex-direction: row;
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .description {
@@ -123,8 +127,8 @@ footer {
   display:inline-block;
   padding-top:75px;
   padding-left:50px;
-    padding-right:50px;
-   
+  padding-right:50px;
+
 }
 
 .tasting {
@@ -137,32 +141,29 @@ footer {
   display: flex;
   flex-direction: row;
   text-align:center;
-	flex-wrap: wrap;
-	justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .profile {
-  width: 40%;
+  padding-left: 25px;
+  padding-top: 100px;
 }
 
 
 .profile ul {
-  background-color:blue;
   list-style: none;
   text-align: left;
-   
+
 }
 
 .slider {
-  background-color: red;
-   display: inline-block;
+  display: inline-block;
 }
 
 .slider img {
-  height:20%;
-   
+  width: 50%;
 }
+
 .describe {
-  background-color:yellow;
-  
 }
